@@ -11,7 +11,7 @@ int main()
 	cout << "Please enter a number: ";
 	cin >> userNum;  //Holds the starting number for countdown
 
-	for (i = userNum; i >= 0;--i) {  //This starts the countdown loop
+	for (i = userNum; i >= 1 ;--i) {  //This starts the countdown loop
 		
 		cout << i << endl;
 
